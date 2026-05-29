@@ -1,0 +1,1853 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Áo Thun Mùa Hè Basic",
+      "category": "mua-he",
+      "price": 199000,
+      "img": "images/ao_thun_mua_he.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Áo mặc rất mát.",
+          "date": "2026-05-01T10:00:00.000Z",
+          "reviewerName": "Nguyễn Minh Anh"
+        },
+        {
+          "rating": 4,
+          "comment": "Chất vải khá ổn.",
+          "date": "2026-05-02T11:00:00.000Z",
+          "reviewerName": "Trần Quốc Bảo"
+        },
+        {
+          "rating": 5,
+          "comment": "Form áo đẹp.",
+          "date": "2026-05-03T12:00:00.000Z",
+          "reviewerName": "Lê Gia Huy"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Quần Short Jean",
+      "category": "mua-he",
+      "price": 259000,
+      "img": "images/quan_short_jean.jpg",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Mặc thoải mái.",
+          "date": "2026-05-04T10:00:00.000Z",
+          "reviewerName": "Phạm Hoàng Nam"
+        },
+        {
+          "rating": 5,
+          "comment": "Quần đẹp hơn mong đợi.",
+          "date": "2026-05-05T11:00:00.000Z",
+          "reviewerName": "Nguyễn Khánh Linh"
+        },
+        {
+          "rating": 4,
+          "comment": "Vải tốt.",
+          "date": "2026-05-06T12:00:00.000Z",
+          "reviewerName": "Đỗ Minh Quân"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Áo Hoodie Oversize",
+      "category": "mua-dong",
+      "price": 459000,
+      "img": "images/ao_hoodie_oversize.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Giữ ấm rất tốt.",
+          "date": "2026-05-07T10:00:00.000Z",
+          "reviewerName": "Nguyễn Thảo Vy"
+        },
+        {
+          "rating": 5,
+          "comment": "Áo cực kỳ đẹp.",
+          "date": "2026-05-08T11:00:00.000Z",
+          "reviewerName": "Bùi Công Thành"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc rất thích.",
+          "date": "2026-05-09T12:00:00.000Z",
+          "reviewerName": "Lâm Minh Quân"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Áo Len Cổ Lọ",
+      "category": "mua-dong",
+      "price": 399000,
+      "img": "images/ao_len_co_lo.jpg",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Mặc đẹp và ấm.",
+          "date": "2026-05-10T10:00:00.000Z",
+          "reviewerName": "Ngô Thu Trang"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất hợp mùa đông.",
+          "date": "2026-05-11T11:00:00.000Z",
+          "reviewerName": "Mai Quốc Khánh"
+        },
+        {
+          "rating": 4,
+          "comment": "Giá hợp lý.",
+          "date": "2026-05-12T12:00:00.000Z",
+          "reviewerName": "Tạ Nhật Minh"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Áo Sơ Mi Công Sở",
+      "category": "di-lam",
+      "price": 349000,
+      "img": "images/ao_so_mi_cong_so.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Rất lịch sự.",
+          "date": "2026-05-13T10:00:00.000Z",
+          "reviewerName": "Đặng Hải Nam"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc đi làm đẹp.",
+          "date": "2026-05-14T11:00:00.000Z",
+          "reviewerName": "Phan Nhật Minh"
+        },
+        {
+          "rating": 5,
+          "comment": "Áo form chuẩn.",
+          "date": "2026-05-15T12:00:00.000Z",
+          "reviewerName": "Nguyễn Gia Bảo"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Quần Tây Nam",
+      "category": "di-lam",
+      "price": 499000,
+      "img": "images/quan_tay_nam.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mặc rất thoải mái.",
+          "date": "2026-05-16T10:00:00.000Z",
+          "reviewerName": "Trương Ngọc Mai"
+        },
+        {
+          "rating": 4,
+          "comment": "Quần đẹp.",
+          "date": "2026-05-17T11:00:00.000Z",
+          "reviewerName": "Lý Gia Huy"
+        },
+        {
+          "rating": 5,
+          "comment": "Đáng tiền.",
+          "date": "2026-05-18T12:00:00.000Z",
+          "reviewerName": "Nguyễn Hữu Phúc"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Váy Dự Tiệc Đen",
+      "category": "su-kien",
+      "price": 799000,
+      "img": "images/vay_du_tiec_den.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Lên dáng đẹp.",
+          "date": "2026-05-19T10:00:00.000Z",
+          "reviewerName": "Bùi Khánh Linh"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất sang trọng.",
+          "date": "2026-05-20T11:00:00.000Z",
+          "reviewerName": "Nguyễn Quỳnh Anh"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc đi tiệc rất đẹp.",
+          "date": "2026-05-21T12:00:00.000Z",
+          "reviewerName": "Võ Khánh Vy"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Vest Nam Cao Cấp",
+      "category": "su-kien",
+      "price": 1499000,
+      "img": "images/vest_nam_cao_cap.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Vest cực kỳ đẹp.",
+          "date": "2026-05-22T10:00:00.000Z",
+          "reviewerName": "Lê Đức Long"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất sang.",
+          "date": "2026-05-23T11:00:00.000Z",
+          "reviewerName": "Nguyễn Lan Chi"
+        },
+        {
+          "rating": 4,
+          "comment": "Chất vải tốt.",
+          "date": "2026-05-24T12:00:00.000Z",
+          "reviewerName": "Đinh Gia Bảo"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Áo Polo Nam",
+      "category": "di-lam",
+      "price": 279000,
+      "img": "images/ao_polo_nam.jpg",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Thiết kế đẹp.",
+          "date": "2026-05-25T10:00:00.000Z",
+          "reviewerName": "Nguyễn Minh Tú"
+        },
+        {
+          "rating": 5,
+          "comment": "Mặc rất thoải mái.",
+          "date": "2026-05-26T11:00:00.000Z",
+          "reviewerName": "Trần Hoài Nam"
+        },
+        {
+          "rating": 4,
+          "comment": "Đáng mua.",
+          "date": "2026-05-27T12:00:00.000Z",
+          "reviewerName": "Lê Quang Huy"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Quần Jogger Streetwear",
+      "category": "mua-dong",
+      "price": 369000,
+      "img": "images/quan_jogger_streetwear.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mặc cực kỳ thoải mái.",
+          "date": "2026-05-28T10:00:00.000Z",
+          "reviewerName": "Bùi Gia Bảo"
+        },
+        {
+          "rating": 4,
+          "comment": "Form đẹp.",
+          "date": "2026-05-29T11:00:00.000Z",
+          "reviewerName": "Đặng Khánh Linh"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất hợp phối đồ.",
+          "date": "2026-05-30T12:00:00.000Z",
+          "reviewerName": "Ngô Minh Quân"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Áo Khoác Bomber",
+      "category": "mua-dong",
+      "price": 559000,
+      "img": "images/ao_khoac_bomber.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Phong cách trẻ trung.",
+          "date": "2026-06-01T10:00:00.000Z",
+          "reviewerName": "Phạm Quốc Anh"
+        },
+        {
+          "rating": 4,
+          "comment": "Giữ ấm tốt.",
+          "date": "2026-06-02T11:00:00.000Z",
+          "reviewerName": "Võ Hải Đăng"
+        },
+        {
+          "rating": 5,
+          "comment": "Áo rất đẹp.",
+          "date": "2026-06-03T12:00:00.000Z",
+          "reviewerName": "Lâm Nhật Minh"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Áo Cardigan Nữ",
+      "category": "mua-dong",
+      "price": 429000,
+      "img": "images/ao_cardigan_nu.jpg",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Mặc rất xinh.",
+          "date": "2026-06-04T10:00:00.000Z",
+          "reviewerName": "Nguyễn Thanh Mai"
+        },
+        {
+          "rating": 5,
+          "comment": "Chất len mềm.",
+          "date": "2026-06-05T11:00:00.000Z",
+          "reviewerName": "Trịnh Thu Hà"
+        },
+        {
+          "rating": 4,
+          "comment": "Rất hợp mùa đông.",
+          "date": "2026-06-06T12:00:00.000Z",
+          "reviewerName": "Đỗ Ngọc Anh"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Áo Tank Top",
+      "category": "mua-he",
+      "price": 159000,
+      "img": "images/ao_tank_top.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mặc cực mát.",
+          "date": "2026-06-07T10:00:00.000Z",
+          "reviewerName": "Nguyễn Gia Linh"
+        },
+        {
+          "rating": 4,
+          "comment": "Vải nhẹ.",
+          "date": "2026-06-08T11:00:00.000Z",
+          "reviewerName": "Mai Quốc Bảo"
+        },
+        {
+          "rating": 5,
+          "comment": "Phối đồ đẹp.",
+          "date": "2026-06-09T12:00:00.000Z",
+          "reviewerName": "Phan Đức Huy"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Quần Kaki Nam",
+      "category": "di-lam",
+      "price": 439000,
+      "img": "images/quan_kaki_nam.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Quần lên form đẹp.",
+          "date": "2026-06-10T10:00:00.000Z",
+          "reviewerName": "Nguyễn Hoàng Long"
+        },
+        {
+          "rating": 4,
+          "comment": "Vải tốt.",
+          "date": "2026-06-11T11:00:00.000Z",
+          "reviewerName": "Bùi Thành Nam"
+        },
+        {
+          "rating": 5,
+          "comment": "Mặc rất lịch sự.",
+          "date": "2026-06-12T12:00:00.000Z",
+          "reviewerName": "Lê Minh Trí"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Đầm Dạ Hội",
+      "category": "su-kien",
+      "price": 1299000,
+      "img": "images/dam_da_hoi.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Rất sang trọng.",
+          "date": "2026-06-13T10:00:00.000Z",
+          "reviewerName": "Nguyễn Bảo Ngọc"
+        },
+        {
+          "rating": 5,
+          "comment": "Lên dáng cực đẹp.",
+          "date": "2026-06-14T11:00:00.000Z",
+          "reviewerName": "Trần Khánh Vy"
+        },
+        {
+          "rating": 4,
+          "comment": "Đáng tiền.",
+          "date": "2026-06-15T12:00:00.000Z",
+          "reviewerName": "Đỗ Quỳnh Anh"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Áo Sweater Basic",
+      "category": "mua-dong",
+      "price": 359000,
+      "img": "images/ao_sweater_basic.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Áo mặc rất ấm.",
+          "date": "2026-06-16T10:00:00.000Z",
+          "reviewerName": "Nguyễn Thành Đạt"
+        },
+        {
+          "rating": 4,
+          "comment": "Form đẹp.",
+          "date": "2026-06-17T11:00:00.000Z",
+          "reviewerName": "Trần Minh Khang"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất dễ phối đồ.",
+          "date": "2026-06-18T12:00:00.000Z",
+          "reviewerName": "Lê Hoàng Phúc"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Quần Linen Mùa Hè",
+      "category": "mua-he",
+      "price": 289000,
+      "img": "images/quan_linen_mua_he.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mặc siêu mát.",
+          "date": "2026-06-19T10:00:00.000Z",
+          "reviewerName": "Phạm Gia Hân"
+        },
+        {
+          "rating": 4,
+          "comment": "Chất liệu ổn.",
+          "date": "2026-06-20T11:00:00.000Z",
+          "reviewerName": "Ngô Quốc Bảo"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất thoải mái.",
+          "date": "2026-06-21T12:00:00.000Z",
+          "reviewerName": "Bùi Khánh Linh"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Áo Croptop Nữ",
+      "category": "mua-he",
+      "price": 189000,
+      "img": "images/ao_croptop_nu.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Áo rất xinh.",
+          "date": "2026-06-22T10:00:00.000Z",
+          "reviewerName": "Nguyễn Quỳnh Chi"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc đẹp.",
+          "date": "2026-06-23T11:00:00.000Z",
+          "reviewerName": "Mai Ngọc Trâm"
+        },
+        {
+          "rating": 5,
+          "comment": "Form chuẩn.",
+          "date": "2026-06-24T12:00:00.000Z",
+          "reviewerName": "Lý Thanh Vy"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Áo Gile Công Sở",
+      "category": "di-lam",
+      "price": 379000,
+      "img": "images/ao_gile_cong_so.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Phối đồ rất đẹp.",
+          "date": "2026-06-25T10:00:00.000Z",
+          "reviewerName": "Đặng Quốc Huy"
+        },
+        {
+          "rating": 4,
+          "comment": "Phong cách lịch sự.",
+          "date": "2026-06-26T11:00:00.000Z",
+          "reviewerName": "Nguyễn Minh Châu"
+        },
+        {
+          "rating": 5,
+          "comment": "Mặc đi làm hợp.",
+          "date": "2026-06-27T12:00:00.000Z",
+          "reviewerName": "Trần Gia Linh"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Bộ Suit Nữ",
+      "category": "su-kien",
+      "price": 1599000,
+      "img": "images/bo_suit_nu.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Cực kỳ sang trọng.",
+          "date": "2026-06-28T10:00:00.000Z",
+          "reviewerName": "Nguyễn Bảo Trân"
+        },
+        {
+          "rating": 5,
+          "comment": "Lên form đẹp.",
+          "date": "2026-06-29T11:00:00.000Z",
+          "reviewerName": "Võ Khánh Ngọc"
+        },
+        {
+          "rating": 4,
+          "comment": "Rất đáng mua.",
+          "date": "2026-06-30T12:00:00.000Z",
+          "reviewerName": "Phan Thu Hà"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Áo Hoodie Zip",
+      "category": "mua-dong",
+      "price": 489000,
+      "img": "images/ao_hoodie_zip.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Áo rất đẹp.",
+          "date": "2026-07-01T10:00:00.000Z",
+          "reviewerName": "Nguyễn Anh Tú"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc rất thoải mái.",
+          "date": "2026-07-02T11:00:00.000Z",
+          "reviewerName": "Trần Nhật Minh"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất hợp mùa đông.",
+          "date": "2026-07-03T12:00:00.000Z",
+          "reviewerName": "Lâm Hoàng Long"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Quần Baggy Jean",
+      "category": "mua-he",
+      "price": 459000,
+      "img": "images/quan_baggy_jean.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Phong cách trẻ.",
+          "date": "2026-07-04T10:00:00.000Z",
+          "reviewerName": "Nguyễn Hải Nam"
+        },
+        {
+          "rating": 4,
+          "comment": "Quần đẹp.",
+          "date": "2026-07-05T11:00:00.000Z",
+          "reviewerName": "Bùi Minh Đức"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất dễ phối đồ.",
+          "date": "2026-07-06T12:00:00.000Z",
+          "reviewerName": "Lê Quốc Việt"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Áo Khoác Dạ",
+      "category": "mua-dong",
+      "price": 899000,
+      "img": "images/ao_khoac_da.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Giữ ấm rất tốt.",
+          "date": "2026-07-07T10:00:00.000Z",
+          "reviewerName": "Nguyễn Gia Huy"
+        },
+        {
+          "rating": 5,
+          "comment": "Áo rất sang.",
+          "date": "2026-07-08T11:00:00.000Z",
+          "reviewerName": "Mai Ngọc Anh"
+        },
+        {
+          "rating": 4,
+          "comment": "Chất liệu đẹp.",
+          "date": "2026-07-09T12:00:00.000Z",
+          "reviewerName": "Đỗ Minh Khoa"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Áo Sơ Mi Caro",
+      "category": "mua-he",
+      "price": 319000,
+      "img": "images/ao_sơ_mi_caro.jpg",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Mặc đi chơi đẹp.",
+          "date": "2026-07-10T10:00:00.000Z",
+          "reviewerName": "Nguyễn Thanh Bình"
+        },
+        {
+          "rating": 5,
+          "comment": "Áo form đẹp.",
+          "date": "2026-07-11T11:00:00.000Z",
+          "reviewerName": "Lý Quốc Anh"
+        },
+        {
+          "rating": 4,
+          "comment": "Vải mềm.",
+          "date": "2026-07-12T12:00:00.000Z",
+          "reviewerName": "Trần Minh Tâm"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Chân Váy Công Sở",
+      "category": "di-lam",
+      "price": 349000,
+      "img": "images/chan_vay_cong_so.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Đi làm rất hợp.",
+          "date": "2026-07-13T10:00:00.000Z",
+          "reviewerName": "Nguyễn Thu Trang"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc đẹp.",
+          "date": "2026-07-14T11:00:00.000Z",
+          "reviewerName": "Mai Khánh Linh"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất thanh lịch.",
+          "date": "2026-07-15T12:00:00.000Z",
+          "reviewerName": "Phạm Ngọc Mai"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Áo Thun Local Brand",
+      "category": "mua-he",
+      "price": 279000,
+      "img": "images/ao_thun_local_brand.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Form áo cực đẹp.",
+          "date": "2026-07-16T10:00:00.000Z",
+          "reviewerName": "Nguyễn Quốc Đạt"
+        },
+        {
+          "rating": 4,
+          "comment": "Phong cách trẻ trung.",
+          "date": "2026-07-17T11:00:00.000Z",
+          "reviewerName": "Lê Minh Quân"
+        },
+        {
+          "rating": 5,
+          "comment": "Mặc rất thích.",
+          "date": "2026-07-18T12:00:00.000Z",
+          "reviewerName": "Trần Gia Bảo"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Quần Ống Rộng",
+      "category": "mua-he",
+      "price": 399000,
+      "img": "images/quan_ong_rong.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Quần mặc siêu thoải mái.",
+          "date": "2026-07-19T10:00:00.000Z",
+          "reviewerName": "Nguyễn Khánh Vy"
+        },
+        {
+          "rating": 4,
+          "comment": "Chất vải đẹp.",
+          "date": "2026-07-20T11:00:00.000Z",
+          "reviewerName": "Phạm Minh Tú"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất hợp xu hướng.",
+          "date": "2026-07-21T12:00:00.000Z",
+          "reviewerName": "Đỗ Nhật Huy"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Áo Vest Hàn Quốc",
+      "category": "su-kien",
+      "price": 999000,
+      "img": "images/ao_vest_han_quoc.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Vest rất sang.",
+          "date": "2026-07-22T10:00:00.000Z",
+          "reviewerName": "Nguyễn Hoàng Anh"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc đẹp.",
+          "date": "2026-07-23T11:00:00.000Z",
+          "reviewerName": "Trần Khánh Duy"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất đáng tiền.",
+          "date": "2026-07-24T12:00:00.000Z",
+          "reviewerName": "Lý Quốc Hưng"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Áo Blazer Nữ",
+      "category": "di-lam",
+      "price": 659000,
+      "img": "images/ao_blazer_nu.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mặc rất thanh lịch.",
+          "date": "2026-07-25T10:00:00.000Z",
+          "reviewerName": "Nguyễn Thu Phương"
+        },
+        {
+          "rating": 4,
+          "comment": "Form áo đẹp.",
+          "date": "2026-07-26T11:00:00.000Z",
+          "reviewerName": "Mai Quỳnh Anh"
+        },
+        {
+          "rating": 5,
+          "comment": "Đi làm rất hợp.",
+          "date": "2026-07-27T12:00:00.000Z",
+          "reviewerName": "Đặng Ngọc Mai"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Quần Short Thể Thao",
+      "category": "mua-he",
+      "price": 199000,
+      "img": "images/quan_short_the_thao.jpg",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Mặc vận động thoải mái.",
+          "date": "2026-07-28T10:00:00.000Z",
+          "reviewerName": "Nguyễn Hải Đăng"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất nhẹ và mát.",
+          "date": "2026-07-29T11:00:00.000Z",
+          "reviewerName": "Trần Minh Khôi"
+        },
+        {
+          "rating": 4,
+          "comment": "Giá hợp lý.",
+          "date": "2026-07-30T12:00:00.000Z",
+          "reviewerName": "Lê Gia Phúc"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Áo Nỉ Tay Dài",
+      "category": "mua-dong",
+      "price": 339000,
+      "img": "images/ao_ni_tay_dai.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Áo mặc rất ấm.",
+          "date": "2026-08-01T10:00:00.000Z",
+          "reviewerName": "Nguyễn Hoài Phong"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc khá đẹp.",
+          "date": "2026-08-02T11:00:00.000Z",
+          "reviewerName": "Bùi Quốc Khánh"
+        },
+        {
+          "rating": 5,
+          "comment": "Chất liệu mềm.",
+          "date": "2026-08-03T12:00:00.000Z",
+          "reviewerName": "Lâm Nhật Nam"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Áo Thun Form Rộng",
+      "category": "mua-he",
+      "price": 249000,
+      "img": "images/ao_thun_form_rong.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Áo rất trendy.",
+          "date": "2026-08-04T10:00:00.000Z",
+          "reviewerName": "Nguyễn Đức Anh"
+        },
+        {
+          "rating": 4,
+          "comment": "Form rộng đẹp.",
+          "date": "2026-08-05T11:00:00.000Z",
+          "reviewerName": "Trần Thanh Tùng"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất dễ phối đồ.",
+          "date": "2026-08-06T12:00:00.000Z",
+          "reviewerName": "Mai Quốc Việt"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Áo Sơ Mi Lụa",
+      "category": "di-lam",
+      "price": 529000,
+      "img": "images/ao_sơ_mi_lụa.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Vải rất mềm.",
+          "date": "2026-08-07T10:00:00.000Z",
+          "reviewerName": "Nguyễn Thanh Hà"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc sang trọng.",
+          "date": "2026-08-08T11:00:00.000Z",
+          "reviewerName": "Đỗ Minh Châu"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất đẹp.",
+          "date": "2026-08-09T12:00:00.000Z",
+          "reviewerName": "Phạm Ngọc Trinh"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Đầm Maxi Hoa",
+      "category": "mua-he",
+      "price": 459000,
+      "img": "images/dam_maxi_hoa.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mặc đi biển rất đẹp.",
+          "date": "2026-08-10T10:00:00.000Z",
+          "reviewerName": "Nguyễn Bích Ngọc"
+        },
+        {
+          "rating": 4,
+          "comment": "Màu sắc đẹp.",
+          "date": "2026-08-11T11:00:00.000Z",
+          "reviewerName": "Lý Thanh Hằng"
+        },
+        {
+          "rating": 5,
+          "comment": "Váy rất xinh.",
+          "date": "2026-08-12T12:00:00.000Z",
+          "reviewerName": "Mai Thuỳ Linh"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Áo Khoác Denim",
+      "category": "mua-he",
+      "price": 699000,
+      "img": "images/ao_khoac_denim.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Phong cách cực đẹp.",
+          "date": "2026-08-13T10:00:00.000Z",
+          "reviewerName": "Nguyễn Minh Khang"
+        },
+        {
+          "rating": 4,
+          "comment": "Áo khá chất.",
+          "date": "2026-08-14T11:00:00.000Z",
+          "reviewerName": "Trần Quốc Thiên"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất đáng mua.",
+          "date": "2026-08-15T12:00:00.000Z",
+          "reviewerName": "Bùi Nhật Nam"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Quần Cargo Túi Hộp",
+      "category": "mua-dong",
+      "price": 489000,
+      "img": "images/quan_cargo_tui_hop.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Quần rất ngầu.",
+          "date": "2026-08-16T10:00:00.000Z",
+          "reviewerName": "Nguyễn Hoàng Phúc"
+        },
+        {
+          "rating": 4,
+          "comment": "Nhiều túi tiện lợi.",
+          "date": "2026-08-17T11:00:00.000Z",
+          "reviewerName": "Trần Minh Hiếu"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất hợp style streetwear.",
+          "date": "2026-08-18T12:00:00.000Z",
+          "reviewerName": "Lê Nhật Quang"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Áo Khoác Gió",
+      "category": "mua-dong",
+      "price": 429000,
+      "img": "images/ao_khoac_gio.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Cản gió tốt.",
+          "date": "2026-08-19T10:00:00.000Z",
+          "reviewerName": "Nguyễn Đức Thành"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc nhẹ.",
+          "date": "2026-08-20T11:00:00.000Z",
+          "reviewerName": "Bùi Minh Tài"
+        },
+        {
+          "rating": 5,
+          "comment": "Thiết kế đẹp.",
+          "date": "2026-08-21T12:00:00.000Z",
+          "reviewerName": "Mai Quốc Anh"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Đầm Body Dự Tiệc",
+      "category": "su-kien",
+      "price": 899000,
+      "img": "images/dam_body_du_tiec.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Lên dáng cực đẹp.",
+          "date": "2026-08-22T10:00:00.000Z",
+          "reviewerName": "Nguyễn Khánh Ngọc"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc rất sang.",
+          "date": "2026-08-23T11:00:00.000Z",
+          "reviewerName": "Trần Bảo Châu"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất đáng tiền.",
+          "date": "2026-08-24T12:00:00.000Z",
+          "reviewerName": "Đặng Thuỳ Dương"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "title": "Áo Thun Thể Thao",
+      "category": "mua-he",
+      "price": 229000,
+      "img": "images/ao_thun_the_thao.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mặc tập gym rất ổn.",
+          "date": "2026-08-25T10:00:00.000Z",
+          "reviewerName": "Nguyễn Văn Hùng"
+        },
+        {
+          "rating": 4,
+          "comment": "Thấm hút mồ hôi tốt.",
+          "date": "2026-08-26T11:00:00.000Z",
+          "reviewerName": "Lý Minh Đạt"
+        },
+        {
+          "rating": 5,
+          "comment": "Áo mặc thoải mái.",
+          "date": "2026-08-27T12:00:00.000Z",
+          "reviewerName": "Bùi Quốc Trung"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Áo Blouse Nữ",
+      "category": "di-lam",
+      "price": 359000,
+      "img": "images/ao_blouse_nu.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Rất thanh lịch.",
+          "date": "2026-08-28T10:00:00.000Z",
+          "reviewerName": "Nguyễn Mai Anh"
+        },
+        {
+          "rating": 4,
+          "comment": "Vải mềm đẹp.",
+          "date": "2026-08-29T11:00:00.000Z",
+          "reviewerName": "Trần Thu Uyên"
+        },
+        {
+          "rating": 5,
+          "comment": "Mặc đi làm rất hợp.",
+          "date": "2026-08-30T12:00:00.000Z",
+          "reviewerName": "Phạm Ngọc Hà"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "title": "Quần Jean Skinny",
+      "category": "di-lam",
+      "price": 519000,
+      "img": "images/quan_jean_skinny.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Co giãn tốt.",
+          "date": "2026-09-01T10:00:00.000Z",
+          "reviewerName": "Nguyễn Hải Sơn"
+        },
+        {
+          "rating": 4,
+          "comment": "Mặc đẹp.",
+          "date": "2026-09-02T11:00:00.000Z",
+          "reviewerName": "Lê Quốc Đạt"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất dễ phối đồ.",
+          "date": "2026-09-03T12:00:00.000Z",
+          "reviewerName": "Trần Đức Minh"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Áo Sơ Mi Denim",
+      "category": "mua-he",
+      "price": 459000,
+      "img": "images/ao_sơ_mi_denim.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Phong cách cá tính.",
+          "date": "2026-09-04T10:00:00.000Z",
+          "reviewerName": "Nguyễn Nhật Hào"
+        },
+        {
+          "rating": 4,
+          "comment": "Áo form đẹp.",
+          "date": "2026-09-05T11:00:00.000Z",
+          "reviewerName": "Bùi Minh Quang"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất thích sản phẩm này.",
+          "date": "2026-09-06T12:00:00.000Z",
+          "reviewerName": "Lâm Quốc Bảo"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "title": "Đầm Công Sở Tay Dài",
+      "category": "di-lam",
+      "price": 599000,
+      "img": "images/dam_cong_so_tay_dai.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mặc rất sang.",
+          "date": "2026-09-07T10:00:00.000Z",
+          "reviewerName": "Nguyễn Thanh Huyền"
+        },
+        {
+          "rating": 4,
+          "comment": "Thiết kế đẹp.",
+          "date": "2026-09-08T11:00:00.000Z",
+          "reviewerName": "Mai Gia Linh"
+        },
+        {
+          "rating": 5,
+          "comment": "Đi làm rất hợp.",
+          "date": "2026-09-09T12:00:00.000Z",
+          "reviewerName": "Đặng Khánh Chi"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "title": "Áo Khoác Parka",
+      "category": "mua-dong",
+      "price": 999000,
+      "img": "images/ao_khoac_parka.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Giữ nhiệt cực tốt.",
+          "date": "2026-09-10T10:00:00.000Z",
+          "reviewerName": "Nguyễn Minh Quân"
+        },
+        {
+          "rating": 4,
+          "comment": "Áo rất đẹp.",
+          "date": "2026-09-11T11:00:00.000Z",
+          "reviewerName": "Lê Thành Công"
+        },
+        {
+          "rating": 5,
+          "comment": "Đáng tiền.",
+          "date": "2026-09-12T12:00:00.000Z",
+          "reviewerName": "Trần Nhật Nam"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Áo Hai Dây Nữ",
+      "category": "mua-he",
+      "price": 179000,
+      "img": "images/ao_hai_day_nu.jpg",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Mặc rất mát.",
+          "date": "2026-09-13T10:00:00.000Z",
+          "reviewerName": "Nguyễn Ngọc Trâm"
+        },
+        {
+          "rating": 4,
+          "comment": "Màu đẹp.",
+          "date": "2026-09-14T11:00:00.000Z",
+          "reviewerName": "Mai Khánh Vy"
+        },
+        {
+          "rating": 5,
+          "comment": "Rất xinh.",
+          "date": "2026-09-15T12:00:00.000Z",
+          "reviewerName": "Đỗ Thu Phương"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "o001",
+      "orderDate": "2026-09-01T09:00:00.000Z",
+      "products": [
+        {
+          "id": "1",
+          "name": "Áo Thun Mùa Hè Basic",
+          "price": 199000,
+          "quantity": 2
+        },
+        {
+          "id": "17",
+          "name": "Quần Linen Mùa Hè",
+          "price": 289000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Cầu Giấy, Hà Nội"
+    },
+    {
+      "id": "o002",
+      "orderDate": "2026-09-02T10:00:00.000Z",
+      "products": [
+        {
+          "id": "3",
+          "name": "Áo Hoodie Oversize",
+          "price": 459000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Hải Châu, Đà Nẵng"
+    },
+    {
+      "id": "o003",
+      "orderDate": "2026-09-03T11:00:00.000Z",
+      "products": [
+        {
+          "id": "7",
+          "name": "Váy Dự Tiệc Đen",
+          "price": 799000,
+          "quantity": 1
+        },
+        {
+          "id": "38",
+          "name": "Đầm Body Dự Tiệc",
+          "price": 899000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Quận 1, TP.HCM"
+    },
+    {
+      "id": "o004",
+      "orderDate": "2026-09-04T12:00:00.000Z",
+      "products": [
+        {
+          "id": "5",
+          "name": "Áo Sơ Mi Công Sở",
+          "price": 349000,
+          "quantity": 2
+        },
+        {
+          "id": "14",
+          "name": "Quần Kaki Nam",
+          "price": 439000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Long Biên, Hà Nội"
+    },
+    {
+      "id": "o005",
+      "orderDate": "2026-09-05T13:00:00.000Z",
+      "products": [
+        {
+          "id": "8",
+          "name": "Vest Nam Cao Cấp",
+          "price": 1499000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Biên Hòa, Đồng Nai"
+    },
+    {
+      "id": "o006",
+      "orderDate": "2026-09-06T14:00:00.000Z",
+      "products": [
+        {
+          "id": "24",
+          "name": "Áo Sơ Mi Caro",
+          "price": 319000,
+          "quantity": 1
+        },
+        {
+          "id": "27",
+          "name": "Quần Ống Rộng",
+          "price": 399000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Nam Từ Liêm, Hà Nội"
+    },
+    {
+      "id": "o007",
+      "orderDate": "2026-09-07T15:00:00.000Z",
+      "products": [
+        {
+          "id": "20",
+          "name": "Bộ Suit Nữ",
+          "price": 1599000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Thanh Khê, Đà Nẵng"
+    },
+    {
+      "id": "o008",
+      "orderDate": "2026-09-08T16:00:00.000Z",
+      "products": [
+        {
+          "id": "11",
+          "name": "Áo Khoác Bomber",
+          "price": 559000,
+          "quantity": 1
+        },
+        {
+          "id": "31",
+          "name": "Áo Nỉ Tay Dài",
+          "price": 339000,
+          "quantity": 2
+        }
+      ],
+      "shipAddress": "Thủ Đức, TP.HCM"
+    },
+    {
+      "id": "o009",
+      "orderDate": "2026-09-09T17:00:00.000Z",
+      "products": [
+        {
+          "id": "39",
+          "name": "Áo Thun Thể Thao",
+          "price": 229000,
+          "quantity": 3
+        }
+      ],
+      "shipAddress": "Ninh Kiều, Cần Thơ"
+    },
+    {
+      "id": "o010",
+      "orderDate": "2026-09-10T18:00:00.000Z",
+      "products": [
+        {
+          "id": "29",
+          "name": "Áo Blazer Nữ",
+          "price": 659000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Huế, Thừa Thiên Huế"
+    },
+    {
+      "id": "o011",
+      "orderDate": "2026-09-11T09:30:00.000Z",
+      "products": [
+        {
+          "id": "36",
+          "name": "Quần Cargo Túi Hộp",
+          "price": 489000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Bắc Ninh"
+    },
+    {
+      "id": "o012",
+      "orderDate": "2026-09-12T10:30:00.000Z",
+      "products": [
+        {
+          "id": "12",
+          "name": "Áo Cardigan Nữ",
+          "price": 429000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Hạ Long, Quảng Ninh"
+    },
+    {
+      "id": "o013",
+      "orderDate": "2026-09-13T11:30:00.000Z",
+      "products": [
+        {
+          "id": "35",
+          "name": "Áo Khoác Denim",
+          "price": 699000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Quy Nhơn, Bình Định"
+    },
+    {
+      "id": "o014",
+      "orderDate": "2026-09-14T12:30:00.000Z",
+      "products": [
+        {
+          "id": "40",
+          "name": "Áo Blouse Nữ",
+          "price": 359000,
+          "quantity": 2
+        }
+      ],
+      "shipAddress": "Tam Kỳ, Quảng Nam"
+    },
+    {
+      "id": "o015",
+      "orderDate": "2026-09-15T13:30:00.000Z",
+      "products": [
+        {
+          "id": "16",
+          "name": "Áo Sweater Basic",
+          "price": 359000,
+          "quantity": 1
+        },
+        {
+          "id": "44",
+          "name": "Áo Khoác Parka",
+          "price": 999000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Vũng Tàu"
+    },
+    {
+      "id": "o016",
+      "orderDate": "2026-09-16T14:00:00.000Z",
+      "products": [
+        {
+          "id": "18",
+          "name": "Áo Croptop Nữ",
+          "price": 189000,
+          "quantity": 2
+        },
+        {
+          "id": "34",
+          "name": "Đầm Maxi Hoa",
+          "price": 459000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Đống Đa, Hà Nội"
+    },
+    {
+      "id": "o017",
+      "orderDate": "2026-09-17T15:00:00.000Z",
+      "products": [
+        {
+          "id": "6",
+          "name": "Quần Tây Nam",
+          "price": 499000,
+          "quantity": 1
+        },
+        {
+          "id": "33",
+          "name": "Áo Sơ Mi Lụa",
+          "price": 529000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Quận 7, TP.HCM"
+    },
+    {
+      "id": "o018",
+      "orderDate": "2026-09-18T16:00:00.000Z",
+      "products": [
+        {
+          "id": "22",
+          "name": "Quần Baggy Jean",
+          "price": 459000,
+          "quantity": 1
+        },
+        {
+          "id": "32",
+          "name": "Áo Thun Form Rộng",
+          "price": 249000,
+          "quantity": 2
+        }
+      ],
+      "shipAddress": "Hải Phòng"
+    },
+    {
+      "id": "o019",
+      "orderDate": "2026-09-19T17:00:00.000Z",
+      "products": [
+        {
+          "id": "28",
+          "name": "Áo Vest Hàn Quốc",
+          "price": 999000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Thanh Xuân, Hà Nội"
+    },
+    {
+      "id": "o020",
+      "orderDate": "2026-09-20T18:00:00.000Z",
+      "products": [
+        {
+          "id": "45",
+          "name": "Áo Hai Dây Nữ",
+          "price": 179000,
+          "quantity": 3
+        }
+      ],
+      "shipAddress": "Sơn Trà, Đà Nẵng"
+    },
+    {
+      "id": "o021",
+      "orderDate": "2026-09-21T09:15:00.000Z",
+      "products": [
+        {
+          "id": "2",
+          "name": "Quần Short Jean",
+          "price": 259000,
+          "quantity": 2
+        },
+        {
+          "id": "13",
+          "name": "Áo Tank Top",
+          "price": 159000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Tân Bình, TP.HCM"
+    },
+    {
+      "id": "o022",
+      "orderDate": "2026-09-22T10:15:00.000Z",
+      "products": [
+        {
+          "id": "23",
+          "name": "Áo Khoác Dạ",
+          "price": 899000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Nam Định"
+    },
+    {
+      "id": "o023",
+      "orderDate": "2026-09-23T11:15:00.000Z",
+      "products": [
+        {
+          "id": "15",
+          "name": "Đầm Dạ Hội",
+          "price": 1299000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Buôn Ma Thuột"
+    },
+    {
+      "id": "o024",
+      "orderDate": "2026-09-24T12:15:00.000Z",
+      "products": [
+        {
+          "id": "26",
+          "name": "Áo Thun Local Brand",
+          "price": 279000,
+          "quantity": 2
+        },
+        {
+          "id": "41",
+          "name": "Quần Jean Skinny",
+          "price": 519000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Rạch Giá, Kiên Giang"
+    },
+    {
+      "id": "o025",
+      "orderDate": "2026-09-25T13:15:00.000Z",
+      "products": [
+        {
+          "id": "43",
+          "name": "Đầm Công Sở Tay Dài",
+          "price": 599000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Pleiku, Gia Lai"
+    },
+    {
+      "id": "o026",
+      "orderDate": "2026-09-26T14:15:00.000Z",
+      "products": [
+        {
+          "id": "30",
+          "name": "Quần Short Thể Thao",
+          "price": 199000,
+          "quantity": 2
+        },
+        {
+          "id": "39",
+          "name": "Áo Thun Thể Thao",
+          "price": 229000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Nha Trang, Khánh Hòa"
+    },
+    {
+      "id": "o027",
+      "orderDate": "2026-09-27T15:15:00.000Z",
+      "products": [
+        {
+          "id": "37",
+          "name": "Áo Khoác Gió",
+          "price": 429000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Phú Quốc, Kiên Giang"
+    },
+    {
+      "id": "o028",
+      "orderDate": "2026-09-28T16:15:00.000Z",
+      "products": [
+        {
+          "id": "10",
+          "name": "Quần Jogger Streetwear",
+          "price": 369000,
+          "quantity": 2
+        }
+      ],
+      "shipAddress": "Bình Thạnh, TP.HCM"
+    },
+    {
+      "id": "o029",
+      "orderDate": "2026-09-29T17:15:00.000Z",
+      "products": [
+        {
+          "id": "19",
+          "name": "Áo Gile Công Sở",
+          "price": 379000,
+          "quantity": 1
+        },
+        {
+          "id": "25",
+          "name": "Chân Váy Công Sở",
+          "price": 349000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Mỹ Đình, Hà Nội"
+    },
+    {
+      "id": "o030",
+      "orderDate": "2026-09-30T18:15:00.000Z",
+      "products": [
+        {
+          "id": "42",
+          "name": "Áo Sơ Mi Denim",
+          "price": 459000,
+          "quantity": 1
+        },
+        {
+          "id": "35",
+          "name": "Áo Khoác Denim",
+          "price": 699000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Việt Trì, Phú Thọ"
+    },
+    {
+      "orderDate": "2026-05-23T07:57:11.892Z",
+      "products": [
+        {
+          "id": "1",
+          "name": "Áo Thun Mùa Hè Basic",
+          "price": 199000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Ha Noi",
+      "id": "u2dgI0Y"
+    },
+    {
+      "userId": 1,
+      "orderDate": "2026-05-23T08:04:42.820Z",
+      "products": [
+        {
+          "id": "1",
+          "name": "Áo Thun Mùa Hè Basic",
+          "price": 199000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "abc",
+      "id": "ywDkxUX"
+    },
+    {
+      "userId": 18,
+      "orderDate": "2026-05-29T07:30:35.481Z",
+      "products": [
+        {
+          "id": "4",
+          "name": "Áo Len Cổ Lọ",
+          "price": 399000,
+          "quantity": 1
+        },
+        {
+          "id": "14",
+          "name": "Quần Kaki Nam",
+          "price": 439000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Ha Dong Ha Noi",
+      "id": "ssVVFWU"
+    }
+  ],
+  "carts": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "minhanh",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "name": "quocbao",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "giahuy",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "name": "thilan",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "name": "vanson",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 6,
+      "name": "quanghao",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 7,
+      "name": "thanhtung",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 8,
+      "name": "thihanh",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 9,
+      "name": "vanduc",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 10,
+      "name": "minhtu",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 11,
+      "name": "thanhhuong",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 12,
+      "name": "quockhanh",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 13,
+      "name": "mylinh",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 14,
+      "name": "huuphuc",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "id": 15,
+      "name": "thuha",
+      "pass": "123456",
+      "role": "user"
+    },
+    {
+      "name": "dqh2005",
+      "pass": "123456",
+      "id": 16,
+      "role": "user"
+    },
+    {
+      "id": 17,
+      "name": "admin",
+      "pass": "123",
+      "role": "admin"
+    },
+    {
+      "name": "dqh20",
+      "pass": "123456",
+      "role": "user",
+      "id": 18
+    }
+  ]
+}
