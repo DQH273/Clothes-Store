@@ -1737,6 +1737,26 @@
       ],
       "shipAddress": "Ha Dong Ha Noi",
       "id": "ssVVFWU"
+    },
+    {
+      "userId": 18,
+      "orderDate": "2026-06-05T09:21:39.025Z",
+      "products": [
+        {
+          "id": "3",
+          "name": "Áo Hoodie Oversize",
+          "price": 459000,
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "name": "Quần Jogger Streetwear",
+          "price": 369000,
+          "quantity": 1
+        }
+      ],
+      "shipAddress": "Trần Phú, Hà Đông",
+      "id": "H18SGYY"
     }
   ],
   "carts": [],
@@ -1848,6 +1868,12 @@
       "pass": "123456",
       "role": "user",
       "id": 18
+    },
+    {
+      "name": "dqh21",
+      "pass": "123456",
+      "role": "user",
+      "id": 19
     }
   ]
 }

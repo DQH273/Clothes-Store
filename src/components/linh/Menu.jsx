@@ -1,6 +1,7 @@
 import { Nav } from "react-bootstrap";
 import { NavLink, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { CartContext } from "../user/CartProvider";
 
 function Menu() {
   const navigate = useNavigate();
@@ -8,6 +9,8 @@ function Menu() {
   const [showMenu, setShowMenu] = useState(false);
 
   const currentUser = JSON.parse(localStorage.getItem("user"));
+
+  const { cartCount } = useContext(CartContext);
 
   function handleLogout() {
     localStorage.removeItem("user");
@@ -36,79 +39,104 @@ function Menu() {
         left: 0,
         width: "100%",
         zIndex: 1000,
+        boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
       }}
     >
+      {/* HOME */}
       <div
         onClick={handleHomeClick}
         className="p-3"
         style={{
+          color: "black",
+          fontSize: 18,
           cursor: "pointer",
           fontWeight: "bold",
-          fontSize: 18,
-          color: "black",
         }}
       >
         HOME
       </div>
 
+      {/* MÙA HÈ */}
       <NavLink
         to="/mua-he"
         className="p-3"
         style={({ isActive }) => ({
           color: isActive ? "white" : "black",
-          textDecoration: "none",
+          textDecoration: isActive ? "underline" : "none",
+          fontWeight: isActive ? "bold" : "normal",
+          fontSize: 18,
         })}
       >
         MÙA HÈ
       </NavLink>
 
+      {/* MÙA ĐÔNG */}
       <NavLink
         to="/mua-dong"
         className="p-3"
         style={({ isActive }) => ({
           color: isActive ? "white" : "black",
-          textDecoration: "none",
+          textDecoration: isActive ? "underline" : "none",
+          fontWeight: isActive ? "bold" : "normal",
+          fontSize: 18,
         })}
       >
         MÙA ĐÔNG
       </NavLink>
 
+      {/* ĐI LÀM */}
       <NavLink
         to="/di-lam"
         className="p-3"
         style={({ isActive }) => ({
           color: isActive ? "white" : "black",
-          textDecoration: "none",
+          textDecoration: isActive ? "underline" : "none",
+          fontWeight: isActive ? "bold" : "normal",
+          fontSize: 18,
         })}
       >
         ĐI LÀM
       </NavLink>
 
+      {/* SỰ KIỆN */}
       <NavLink
         to="/su-kien"
         className="p-3"
         style={({ isActive }) => ({
           color: isActive ? "white" : "black",
-          textDecoration: "none",
+          textDecoration: isActive ? "underline" : "none",
+          fontWeight: isActive ? "bold" : "normal",
+          fontSize: 18,
         })}
       >
         SỰ KIỆN
       </NavLink>
 
+      {/* RIGHT MENU */}
       <div
         style={{
           marginLeft: "auto",
+          display: "flex",
+          alignItems: "center",
+          gap: "20px",
           position: "relative",
+          paddingRight: "20px",
         }}
       >
         {!currentUser ? (
           <>
             <NavLink
               to="/login"
-              className="p-2"
+              className="p-3"
               style={{
-                textDecoration: "none",
                 color: "black",
+                fontSize: 14,
+                textDecoration: "none",
+                border: "1px solid white",
+                borderRadius: "7px",
+                backgroundColor: "#f5f5f5",
+                padding: "3px 9px",
+                marginRight: "10px",
               }}
             >
               ĐĂNG NHẬP
@@ -116,10 +144,15 @@ function Menu() {
 
             <NavLink
               to="/register"
-              className="p-2"
+              className="p-3"
               style={{
-                textDecoration: "none",
                 color: "black",
+                fontSize: 14,
+                textDecoration: "none",
+                border: "1px solid white",
+                borderRadius: "7px",
+                backgroundColor: "#f5f5f5",
+                padding: "3px 9px",
               }}
             >
               ĐĂNG KÝ
@@ -127,65 +160,112 @@ function Menu() {
           </>
         ) : (
           <>
+            {/* ICON GIỎ HÀNG */}
             <div
-              onClick={() => setShowMenu(!showMenu)}
+              onClick={() => navigate("/cart")}
               style={{
                 cursor: "pointer",
-                color: "white",
-                fontWeight: "bold",
-                padding: "10px",
+                position: "relative",
+                fontSize: "24px",
               }}
             >
-              👤 {currentUser.name}
+              🛒
+              {cartCount > 0 && (
+                <span
+                  style={{
+                    position: "absolute",
+                    top: "-8px",
+                    right: "-10px",
+                    backgroundColor: "red",
+                    color: "white",
+                    borderRadius: "50%",
+                    minWidth: "18px",
+                    height: "18px",
+                    fontSize: "12px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  {cartCount}
+                </span>
+              )}
             </div>
 
-            {showMenu && (
+            {/* USER */}
+            <div>
               <div
+                onClick={() => setShowMenu(!showMenu)}
                 style={{
-                  position: "absolute",
-                  top: "45px",
-                  right: 0,
-                  backgroundColor: "white",
-                  border: "1px solid #ccc",
-                  minWidth: "180px",
-                  zIndex: 999,
+                  cursor: "pointer",
+                  color: "white",
+                  fontWeight: "bold",
                 }}
               >
-                {currentUser.role !== "admin" && (
-                  <>
-                    <div
-                      style={{ padding: "10px", cursor: "pointer" }}
-                      onClick={() => navigate("/cart")}
-                    >
-                      Giỏ hàng
-                    </div>
-
-                    <div
-                      style={{ padding: "10px", cursor: "pointer" }}
-                      onClick={() => navigate("/myorders")}
-                    >
-                      Đơn mua
-                    </div>
-                  </>
-                )}
-
-                {currentUser.role === "admin" && (
-                  <div
-                    style={{ padding: "10px", cursor: "pointer" }}
-                    onClick={() => navigate("/admin")}
-                  >
-                    Dashboard
-                  </div>
-                )}
-
-                <div
-                  style={{ padding: "10px", cursor: "pointer" }}
-                  onClick={handleLogout}
-                >
-                  Đăng xuất
-                </div>
+                👤 {currentUser.name}
               </div>
-            )}
+
+              {showMenu && (
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "50px",
+                    right: "10px",
+                    backgroundColor: "#222",
+                    minWidth: "180px",
+                    borderRadius: "8px",
+                    overflow: "hidden",
+                    zIndex: 999,
+                  }}
+                >
+                  <div
+                    onClick={() => navigate("/cart")}
+                    style={{
+                      padding: "12px",
+                      color: "white",
+                      cursor: "pointer",
+                    }}
+                  >
+                    Giỏ hàng
+                  </div>
+
+                  <div
+                    onClick={() => navigate("/myorders")}
+                    style={{
+                      padding: "12px",
+                      color: "white",
+                      cursor: "pointer",
+                    }}
+                  >
+                    Đơn mua
+                  </div>
+
+                  {currentUser.role === "admin" && (
+                    <div
+                      onClick={() => navigate("/admin")}
+                      style={{
+                        padding: "12px",
+                        color: "white",
+                        cursor: "pointer",
+                      }}
+                    >
+                      Dashboard
+                    </div>
+                  )}
+
+                  <div
+                    onClick={handleLogout}
+                    style={{
+                      padding: "12px",
+                      color: "white",
+                      cursor: "pointer",
+                    }}
+                  >
+                    Đăng xuất
+                  </div>
+                </div>
+              )}
+            </div>
           </>
         )}
       </div>
