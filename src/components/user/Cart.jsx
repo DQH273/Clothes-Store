@@ -87,10 +87,12 @@ function Cart() {
 
   return (
     <div className="mt-4">
-      <h1 className="mb-4">YOUR CART</h1>
+      <h1 className="mb-4 text-center">GIỎ HÀNG</h1>
 
       {carts.length === 0 ? (
-        <h3>Cart Empty</h3>
+        <h3 className="mb-4 text-center">
+          Bạn chưa có sản phẩm nào trong giỏ hàng
+        </h3>
       ) : (
         <>
           {carts.map((item) => (
