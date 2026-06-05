@@ -3,73 +3,93 @@ import { Container } from "react-bootstrap";
 
 import CartProvider from "./components/user/CartProvider";
 
+// USER
+import Home from "./components/linh/Home";
 import Details from "./components/user/Details";
 import Cart from "./components/user/Cart";
 import Checkout from "./components/user/Checkout";
+import MyOrders from "./components/user/MyOrder";
+
+// CATEGORY
+import Muahe from "./components/linh/Muahe";
+import Muadong from "./components/linh/Muadong";
+import Dilam from "./components/linh/Dilam";
+import Sukien from "./components/linh/Sukien";
+
+// AUTH
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
-import MyOrders from "./components/user/MyOrder";
-import Home from "./components/Home";
-
 import ProtectedRoute from "./components/auth/ProtectedRoute";
+
+// ADMIN
 import AdminPage from "./components/admin/AdminPage";
-import Menu from "./components/Menu";
+
+// MENU
+import Menu from "./components/linh/Menu";
 
 function App() {
   return (
     <CartProvider>
       <BrowserRouter>
         <Menu />
-        <Container fluid>
-          <Routes>
-            {/* PUBLIC */}
-            <Route path="/" element={<Home />} />
 
-            <Route path="/details/:id" element={<Details />} />
+        <div style={{ marginTop: "70px" }}>
+          <Container fluid>
+            <Routes>
+              {/* PUBLIC */}
+              <Route path="/" element={<Home />} />
 
-            <Route path="/login" element={<Login />} />
+              <Route path="/mua-he" element={<Muahe />} />
+              <Route path="/mua-dong" element={<Muadong />} />
+              <Route path="/di-lam" element={<Dilam />} />
+              <Route path="/su-kien" element={<Sukien />} />
 
-            <Route path="/register" element={<Register />} />
+              <Route path="/details/:id" element={<Details />} />
 
-            {/* USER */}
-            <Route
-              path="/cart"
-              element={
-                <ProtectedRoute>
-                  <Cart />
-                </ProtectedRoute>
-              }
-            />
+              <Route path="/login" element={<Login />} />
 
-            <Route
-              path="/checkout"
-              element={
-                <ProtectedRoute>
-                  <Checkout />
-                </ProtectedRoute>
-              }
-            />
+              <Route path="/register" element={<Register />} />
 
-            <Route
-              path="/myorders"
-              element={
-                <ProtectedRoute>
-                  <MyOrders />
-                </ProtectedRoute>
-              }
-            />
+              {/* USER */}
+              <Route
+                path="/cart"
+                element={
+                  <ProtectedRoute>
+                    <Cart />
+                  </ProtectedRoute>
+                }
+              />
 
-            {/* ADMIN */}
-            <Route
-              path="/admin"
-              element={
-                <ProtectedRoute role="admin">
-                  <AdminPage />
-                </ProtectedRoute>
-              }
-            />
-          </Routes>
-        </Container>
+              <Route
+                path="/checkout"
+                element={
+                  <ProtectedRoute>
+                    <Checkout />
+                  </ProtectedRoute>
+                }
+              />
+
+              <Route
+                path="/myorders"
+                element={
+                  <ProtectedRoute>
+                    <MyOrders />
+                  </ProtectedRoute>
+                }
+              />
+
+              {/* ADMIN */}
+              <Route
+                path="/admin"
+                element={
+                  <ProtectedRoute role="admin">
+                    <AdminPage />
+                  </ProtectedRoute>
+                }
+              />
+            </Routes>
+          </Container>
+        </div>
       </BrowserRouter>
     </CartProvider>
   );
