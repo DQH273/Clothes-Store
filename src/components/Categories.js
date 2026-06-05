@@ -46,8 +46,7 @@ function Categories({ products, currentCategory }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortOption, setSortOption] = useState("default");
 
-  const showSubCategory =
-    currentCategory === "di-lam" || currentCategory === "su-kien";
+  const showSubCategory = true;
 
   const mainProducts =
     currentCategory === "all"
